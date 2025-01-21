@@ -1,5 +1,5 @@
 @media screen and (max-width: 576px) {
-    .navLinks, .navbarBtn, .navbar > h3 {
+    .navLinks,.navbar .navbarBtn > h3 {
         display: none;
     }
     .navbar img {
