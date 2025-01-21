@@ -1,0 +1,48 @@
+@media screen and (max-width: 576px) {
+    .navLinks, .navbarBtn, .navbar > h3 {
+        display: none;
+    }
+    .navbar img {
+        margin: 12px;
+    }
+    .bannerContent {
+        text-align: center;
+    }
+    .bannerContent h1 {
+        text-align: center;
+        font-size: 2rem;
+        font-weight: bold;
+    }
+    .bannerContent p {
+        font-size: 0.8rem;
+        font-weight: 500;
+        text-align: center;
+    }
+    .banner {
+        flex-direction: column-reverse;
+    }
+    .cards {
+        flex-direction: column;
+        align-items: center;
+    }
+    .menuIcon {
+        display: block;
+    }
+    .standardContainer h1 {
+        font-size: 1.5rem;
+    }
+    .standardCards {
+       display: grid;
+       grid-template-columns: 1fr;
+    }
+    .sliderIcon {
+        display: none;
+    }
+    .bannerContent {
+        margin-bottom: 10px;
+        margin-top: 20px;
+    }
+    .standardContainer{
+        gap: 20px;
+    }
+}
