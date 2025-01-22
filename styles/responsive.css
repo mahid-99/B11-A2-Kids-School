@@ -1,9 +1,12 @@
 @media screen and (max-width: 576px) {
-    .navLinks,.navbar .navbarBtn > h3 {
+    .navLinks, .navbarBtn, .navbar > h3, .storyCard1 {
         display: none;
     }
     .navbar img {
         margin: 12px;
+    }
+   nav {
+        border-bottom: 1px solid orange;
     }
     .bannerContent {
         text-align: center;
@@ -12,14 +15,21 @@
         text-align: center;
         font-size: 2rem;
         font-weight: bold;
+        margin-top: -70px;
     }
     .bannerContent p {
         font-size: 0.8rem;
         font-weight: 500;
         text-align: center;
+        margin: 0 45px;
+        margin-bottom: 20px;
     }
     .banner {
         flex-direction: column-reverse;
+    }
+    .bannerImg img {
+        width: 82%;
+        margin-left: 40px;
     }
     .cards {
         flex-direction: column;
@@ -29,7 +39,11 @@
         display: block;
     }
     .standardContainer h1 {
-        font-size: 1.5rem;
+        font-size: 1.6rem;
+        margin-top: 60px;
+    }
+    .standardContainer p {
+        font-size: 1rem;
     }
     .standardCards {
        display: grid;
@@ -45,4 +59,54 @@
     .standardContainer{
         gap: 20px;
     }
+    .storyContent {
+        padding: 30px 10px 0px;
+    }
+    .storyCard2 {
+        width: 100%;
+        height: 100%;
+        margin-bottom: 20px;
+    }
+    .storyCard3 {
+        width: 100%;
+        height: 100%;
+        margin-bottom: 20px;
+    }
+    .storyCard4 {
+        width: 100%;
+        height: 100%;
+        margin-bottom: 20px;
+    }
+    .storyCard5 {
+        width: 100%;
+        height: 100%;
+    }
+    .storiesGrid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+        margin: auto 10px;
+    }
+    .storyImg .dateBtn1 {
+        position: absolute;
+        bottom: -22px;
+        left: 38px;
+        padding: 5px 5px;
+        color: rgb(255, 255, 255);
+        font-size: 0.8rem;
+        border-radius: 47px;
+        background: rgb(60, 216, 232);
+        border: none;
+    }
+    .footerWrapper{
+        flex-direction: column;
+        padding-top: 55px;
+
+    }
+    
+    footer#footer{
+        padding: 0px;
+        height: 700px;
+        padding: 0 20px;
+    }
+   
 }
